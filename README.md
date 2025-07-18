@@ -20,15 +20,19 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 `
 mkdir -p $HOME/.local/share/fonts
 `
+
 `
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip -O $HOME/Downloads/firacode.zip
 `
+
 `
 unzip $HOME/Downloads/firacode.zip -d $HOME/.local/share/fonts
 `
+
 `
 fc-cache -f -v
 `
+
 `
 sudo apt install gnome-tweaks -y
 `
