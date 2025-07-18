@@ -69,6 +69,7 @@ gnome-text-editor $HOME/.config/fish/config.fish
 `
 
 Paste the code line top of the file
+
 `
 oh-my-posh init fish --config $HOME/.poshthemes/montys.omp.json | source
 `
