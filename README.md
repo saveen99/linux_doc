@@ -61,3 +61,20 @@ chmod u+rw ~/.poshthemes/*.json
 `
 rm ~/.poshthemes/themes.zip
 `
+
+### Add OhMyPosh Theme to Fish Config
+
+`
+gnome-text-editor $HOME/.config/fish/config.fish
+`
+
+Paste the code line top of the file
+`
+oh-my-posh init fish --config $HOME/.poshthemes/montys.omp.json | source
+`
+
+### Change Terminal Color Scheme
+
+`
+bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+`
