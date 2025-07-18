@@ -1,5 +1,7 @@
 # linux_doc
 
+## Customize Terminal
+
 ### Install Fish Shell in Ubuntu
 
 `
