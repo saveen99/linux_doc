@@ -6,7 +6,7 @@
 sudo apt install fish -y
 `
 
-### Install Oh my Posh
+### Install Ohmyposh
 
 `
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
@@ -60,7 +60,7 @@ chmod u+rw ~/.poshthemes/*.json
 rm ~/.poshthemes/themes.zip
 `
 
-### Add OhMyPosh Theme to Fish Config
+### Add Ohmyposh Theme to Fish Config
 
 `
 gnome-text-editor $HOME/.config/fish/config.fish
