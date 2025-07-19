@@ -1,5 +1,25 @@
 # linux_doc
 
+***
+
+### Java Installation
+
+`
+sudo apt update
+`
+
+`
+sudo apt install default-jre
+`
+
+`
+sudo apt install default-jdk
+`
+
+
+
+***
+
 ### Install Fish Shell in Ubuntu
 
 `
